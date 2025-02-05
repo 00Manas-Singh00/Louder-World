@@ -78,9 +78,6 @@ To deploy, use services like:
 - **Backend:** Heroku, Render
 - **Database:** MongoDB Atlas
 
-## License
-This project is licensed under the MIT License.
-
 ---
 
 **Author:** Manas Singh  
