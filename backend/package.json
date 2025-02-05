@@ -1,6 +1,6 @@
 {
   "type": "module",
   "dependencies": {
-    "puppeteer": "^your-puppeteer-version"
+    "puppeteer": "^22.0.0"
   }
 }
