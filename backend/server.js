@@ -15,7 +15,7 @@ app.use("/api/events", eventRoutes);
 setInterval(scrapeEvents, 24 * 60 * 60 * 1000); // 24 hours interval
 
 mongoose
-  .connect("mongodb://localhost:27017/eventsDB", {
+  .connect("mongodb+srv://00manassingh00:QikOGEfOVudA2vlz@gmail.cwxgx.mongodb.net/?retryWrites=true&w=majority&appName=gmail", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
