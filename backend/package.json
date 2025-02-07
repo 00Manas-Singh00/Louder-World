@@ -7,6 +7,12 @@
     "puppeteer": "^22.0.0",
     "mongoose": "^7.0.0",
     "cors": "^2.8.5",
-    "cosmiconfig": "^8.3.6"
+    "cosmiconfig": "^8.3.6",
+    "@puppeteer/browsers": "^1.0.0",
+    "proxy-agent": "^6.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "render-start": "node server.js"
   }
 }
