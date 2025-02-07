@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+  import React, { useState } from "react";
 
 const EmailModal = ({ event, onClose }) => {
   const [email, setEmail] = useState("");
