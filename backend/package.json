@@ -14,6 +14,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "render-start": "node server.js"
+    "vercel-build": "npm install"
   }
 }
