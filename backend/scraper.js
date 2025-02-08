@@ -1,5 +1,6 @@
 import puppeteer from "puppeteer";
 import Event from "./models/Event.js";
+import chromium from "chrome-aws-lambda"; // For AWS Lambda environments
 
 async function scrapeEvents() {
   const browser = await puppeteer.launch({
