@@ -2,7 +2,10 @@ import puppeteer from "puppeteer";
 import Event from "./models/Event.js";
 
 async function scrapeEvents() {
-  const browser = await puppeteer.launch({ headless: true }); // Launch browser in headless mode
+  const browser = await puppeteer.launch({
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
   const page = await browser.newPage();
   await page.goto("https://www.eventfinda.com.au/", { waitUntil: "load" });
 
